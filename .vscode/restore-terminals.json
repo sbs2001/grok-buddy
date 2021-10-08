@@ -1,0 +1,14 @@
+{
+    "restoreTerminals.terminals": [
+        {
+            "splitTerminals": [
+                {
+                    "name": "server",
+                    "commands": [
+                        "watch --color unbuffer ./grok_autoc -expr './expr' -log './log'"
+                    ]
+                }
+            ]
+        }
+    ]
+}

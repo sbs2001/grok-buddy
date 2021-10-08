@@ -1,0 +1,22 @@
+{
+    "workbench.sideBar.location": "left",
+    "restoreTerminals.terminals": [
+        {
+            "splitTerminals": [
+                {
+                    "name": "grok console",
+                    "commands": [
+                        "watch -n 0.1 --color unbuffer ./grok_autoc -expr './expr' -log './log'"
+                    ]
+                },
+                {
+                    "name": "grok autoc",
+                    "commands": [
+                        "code ./main.go"
+                    ]
+                },
+
+            ]
+        }
+    ],
+}

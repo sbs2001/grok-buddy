@@ -1,0 +1,1 @@
+(%{IPORHOST:target_fqdn} )?%{COMMONAPACHELOG} %{QS:referrer} %{QS:referrer}
